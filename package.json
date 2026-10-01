@@ -1,0 +1,26 @@
+{
+  "name": "a",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "tsx --test tests/core.test.ts",
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/server.js",
+    "cli": "tsx src/cli.ts",
+    "demo": "tsx src/demo.ts",
+    "serve": "tsx src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^26.6.3",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
